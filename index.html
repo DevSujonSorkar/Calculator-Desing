@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+        <title>Dev Sujon Sorkar</title>	     
+      <!-- google font -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@100&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet"> -->
+
+      <!-- fontawesome link -->
+         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+	 
+	   <!-- bootstrap cnd -->
+	       <!-- <link rel="stylesheet" href="/css/bootstrap.min.css">  -->
+
+      
+      <!-- min css link -->
+      <link rel="stylesheet" href="index.css">
+
+       <!-- responsive css -->
+       <link rel="stylesheet" href="responsive.css">
+
+   </head>
+<body>
+
+
+
+
+           
+
+     <div class="calculatorBody">
+       <table>
+
+        <div class="tbody">
+          <tr>
+            <td><input type="text" id="result"></td>
+          </tr>
+        </div>
+
+        <div class="thead">
+          <tr>
+            <td><input type="button" class="btn" value="C" onclick="Deleate('c')"></td>
+            <td><input type="button" class="btn" value=")" onclick="calculator(')')"></td>
+            <td><input type="button" class="btn" value="(" onclick="calculator('(')"></td>
+          </tr>
+
+          <tr>
+            <td><input type="button" class="btn" value="7" onclick="calculator('7')"></td>
+            <td><input type="button" class="btn" value="8" onclick="calculator('8')"></td>
+            <td><input type="button" class="btn" value="9" onclick="calculator('9')"></td>
+            <td><input type="button" class="btn" value="*" onclick="calculator('*')"></td>
+          </tr>
+
+          <tr>
+            <td><input type="button" class="btn" value="4" onclick="calculator('4')"></td>
+            <td><input type="button" class="btn" value="5" onclick="calculator('5')"></td>
+            <td><input type="button" class="btn" value="6" onclick="calculator('6')"></td>
+            <td><input type="button" class="btn" value="+" onclick="calculator('+')"></td>
+          </tr>
+
+          <tr>
+            <td><input type="button" class="btn" value="1" onclick="calculator('1')"></td>
+            <td><input type="button" class="btn" value="2" onclick="calculator('2')"></td>
+            <td><input type="button" class="btn" value="3" onclick="calculator('3')"></td>
+            <td><input type="button" class="btn" value="-" onclick="calculator('-')"></td>
+          </tr>
+
+          <tr>
+            <td><input type="button" class="btn" value="0" onclick="calculator('0')"></td>
+            <td><input type="button" class="btn" value="." onclick="calculator('.')"></td>
+            <td><input type="button" class="btn" value="/" onclick="calculator('/')"></td>
+            <td><input type="button" class="btn" value="=" onclick="answer('')"></td>
+          </tr>
+
+
+     
+        </div>
+        
+
+      
+       </table>
+     </div>
+
+
+
+
+
+
+<script src="js/bootstrap.min.js"></script> 
+<script src="index.js"></script>
+</body>
+</html>
